@@ -1,0 +1,11 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^7.4.0",
+    "puppeteer": "^20.9.0"
+  }
+}

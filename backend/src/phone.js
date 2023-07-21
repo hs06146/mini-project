@@ -43,7 +43,7 @@ export async function sendTokenToSMS(fff, ggg) {
     .sendOne({
       to: fff,
       from: SMS_SENDER,
-      text: `[효성] 요청하신 인증번호는 [${ggg}] 입니다.`,
+      text: `[Develop] 요청하신 인증번호는 [${ggg}] 입니다.`,
     })
     .then((res) => console.log(res));
 }
