@@ -27,11 +27,11 @@ const createMenuCard = (data) => {
   const menuCardName = document.createElement('div')
   menuCardName.className = 'Menu_Card_Name'
   menuCardName.textContent = data?.name || '메뉴이름'
-
+  
   // 메뉴 _id
   const menuCardInfo = document.createElement('div')
   menuCardInfo.className = 'Menu_Card_Info'
-  menuCardInfo.textContent = data?._id || 'id'
+  //menuCardInfo.textContent = data?._id || 'id'
 
   // 합체
   const menuWrapper = document.querySelector('#Menu_Background')

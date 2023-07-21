@@ -12,21 +12,18 @@ async function startCrawling() {
     await page.goto("https://www.starbucks.co.kr/menu/drink_list.do")
     await page.waitForTimeout(1000);
     
-    const img = await page.$eval(
-        `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd:nth-child(8) > ul > li:nth-child(1) > dl > dt > a > img`,
-        (el) => el.textContent
-      );
-    const name = await page.$eval(
-        `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd:nth-child(8) > ul > li:nth-child(1) > dl > dd`,
-        (el) => el.textContent
-      );
-
-    for (let i = 0; i < img.length; i++) {
+    const cnt = await page.$$eval( `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd `, (data) => data.length );
+    for (let i = 1; i <= cnt*2; i++) {
+      const second_cnt = await page.$$eval( `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd:nth-child(${i}) > ul > li`, (data) => data.length );
+      for (let j = 1; j <= second_cnt; j++) { 
+        const img = await page.$eval( `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd:nth-child(${i}) > ul > li:nth-child(${j}) > dl > dt > a > img`, (el) => el.src );
+        const name = await page.$eval( `#container > div.content > div.product_result_wrap.product_result_wrap01 > div > dl > dd:nth-child(2) > div.product_list > dl > dd:nth-child(${i}) > ul > li:nth-child(${j}) > dl > dd`, (el) => el.textContent );
         const starbucks = new Starbucks({
-            img : img[i],
-            name : name[i],
-        })
+          name,
+          img
+        });
         await starbucks.save();
+      }
     }
 
     await browser.close();
