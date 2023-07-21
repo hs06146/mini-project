@@ -1,0 +1,23 @@
+{
+  "name": "mini-project",
+  "version": "1.0.0",
+  "description": "codecamp mini-project",
+  "main": "index.js",
+  "author": "hs06146@github.com",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "coolsms-node-sdk": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.1",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  mini-project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./index.js:/mini-project/index.js
+    ports:
+      - 3000:3000
+  mini-project-database:
+    image: mongo:5
+    ports:
+      - 27017:27017
