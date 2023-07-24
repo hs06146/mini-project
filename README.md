@@ -13,21 +13,21 @@
   <h4> ⭐ Used Stack <hr/> </h4>
   <div>
     <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat&logo=javascript&logoColor=black">
-    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodejs&logoColor=white">
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white">
     <img src="https://img.shields.io/badge/Nodemon-76D04B?style=flat&logo=nodemon&logoColor=black">
     <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white">
     <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black">
     <br>
     <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white">
     <img src="https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white">
-    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html&logoColor=white">
-    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css&logoColor=white">
+    <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white">
+    <img src="https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white">
     <img src="https://img.shields.io/badge/.ENV-ECD53F?style=flat&logo=dotenv&logoColor=black">  
   </div>
   <br>
   <h4> 📘 Used Tools <hr/> </h4>
   <div>
-    <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=vscode&logoColor=white">
+    <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white">
     <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white">
     <img src="https://img.shields.io/badge/Github-181717?style=flat&logo=github&logoColor=white">
     <img src="https://img.shields.io/badge/MongoDB Comapss-47A248?style=flat&logo=mongodbcomapss&logoColor=white">
