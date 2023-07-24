@@ -33,10 +33,12 @@
     <img src="https://img.shields.io/badge/MongoDB Comapss-47A248?style=flat&logo=mongodbcomapss&logoColor=white">
   </div>
   <br>
-  <h4> 💻Development Environment</h4>
+  <h4> 💻Development Environment <hr/> </h4>
   <div>
     <img src="https://img.shields.io/badge/MacOS-000000?style=flat&logo=macos&logoColor=white">
     <img src="https://img.shields.io/badge/Apple-000000?style=flat&logo=apple&logoColor=white">
   </div>
-<h4> 실행 화면</h4>
+<h4> 실행 화면 <hr/></h4>
+
+#### 유저 조회
 <img width="993" alt="유저조회" src="https://github.com/hs06146/mini-project/assets/23402775/d2441ca5-fdf3-488e-ba6f-3a5a7b050e4d">
