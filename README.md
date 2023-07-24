@@ -1,4 +1,4 @@
-<h4> 📢 Introduction <hr/></h4>
+<h4> 📢 Introduction <hr width=500/></h4>
   <h5>
     나만의 Mini project 만들기<br>
       &nbsp;&nbsp;&nbsp;- 회원 가입<br>
