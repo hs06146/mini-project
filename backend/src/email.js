@@ -30,7 +30,6 @@ export function getWelcomeTemplate({ name }) {
 }
 
 export async function sendTemplateToEmail(email, template) {
-  // console.log(`${email} (으)로 ${template}을 전송하였습니다.`);
   const EMAIL_USER = process.env.EMAIL_USER;
   const EMAIL_PASS = process.env.EMAIL_PASS;
   const EMAIL_SENDER = process.env.EMAIL_SENDER;

@@ -28,7 +28,6 @@ export function getToken() {
     "0"
   );
   return result;
-  // console.log(result)
 }
 
 export async function sendTokenToSMS(fff, ggg) {
