@@ -11,12 +11,16 @@ import {
 import mongoose from "mongoose";
 import cors from "cors";
 import { getOGFromPrefer } from "./src/cheerio.js";
+import swaggerUi from "swagger-ui-express";
+import swaggerJsdoc from "swagger-jsdoc";
+import { options } from "./swagger/config.js";
 
 const port = 3000;
 const app = express();
 
 app.use(cors({credentials:true}));
 app.use(express.json());
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerJsdoc(options)));
 
 // 회원가입 API: Post /user
 app.post("/users", async (req, res) => {
