@@ -1,13 +1,13 @@
 <h4> 📢 Introduction <hr/></h4>
   <h5>
     나만의 Mini project 만들기<br>
-      &nbsp;- 회원 가입<br>
-      &nbsp;- 회원 조회<br>
-      &nbsp;- 회원 가입 완료 Email<br>
-      &nbsp;- 스타벅스 메뉴 크롤링<br>
-      &nbsp;- 메뉴 조회<br>
-      &nbsp;- Swagger를 이용한 API 명세서 작성<br>
-      &nbsp;- SMS 인증<br>
+      &nbsp;&nbsp;&nbsp;- 회원 가입<br>
+      &nbsp;&nbsp;&nbsp;- 회원 조회<br>
+      &nbsp;&nbsp;&nbsp;- 회원 가입 완료 Email<br>
+      &nbsp;&nbsp;&nbsp;- 스타벅스 메뉴 크롤링<br>
+      &nbsp;&nbsp;&nbsp;- 메뉴 조회<br>
+      &nbsp;&nbsp;&nbsp;- Swagger를 이용한 API 명세서 작성<br>
+      &nbsp;&nbsp;&nbsp;- SMS 인증<br>
   </h5>
 <br>
   <h4> ⭐ Used Stack <hr/> </h4>
