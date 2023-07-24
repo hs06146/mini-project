@@ -1,5 +1,5 @@
 <h1> 나만의 mini-project</h1>
-<h2> 📢 Introduction <hr width=450/></h2>
+<h2> 📢 Introduction</h2>
 <h3>나만의 Mini project 만들기<br></h3>
   <h4>&nbsp;&nbsp;&nbsp;- 회원 가입<br></h4>
   <h4>&nbsp;&nbsp;&nbsp;- 회원 조회<br></h4>
