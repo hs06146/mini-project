@@ -39,8 +39,6 @@
 <img width="993" alt="유저조회" src="https://github.com/hs06146/mini-project/assets/23402775/d2441ca5-fdf3-488e-ba6f-3a5a7b050e4d">
 <h3> 2. 로그인 </h3>
 <img width="637" alt="login" src="https://github.com/hs06146/mini-project/assets/23402775/a660c683-0624-4005-b625-b5db11fbc346">
-<h3> 3. 메뉴 화면</h3>
-<img width="637" alt="메뉴화면" src="https://github.com/hs06146/mini-project/assets/23402775/3b6616aa-fca1-4cd9-bb62-24bdf459921d">
-<h3> 4. 메뉴 리스트</h3>
+<h3> 3. 메뉴 리스트</h3>
 <img width="632" alt="메뉴리스트" src="https://github.com/hs06146/mini-project/assets/23402775/8523e231-c450-4332-8be8-53955272e9d6">
 
