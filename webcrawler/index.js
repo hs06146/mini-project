@@ -2,8 +2,10 @@ import puppeteer from "puppeteer"
 import { Starbucks } from "./models/starbucks.model.js"
 import mongoose from "mongoose"
 
-// 몽고DB 접속
-mongoose.connect("mongodb://localhost:27017/miniProject")
+const mongoDBPort = process.env.mongoDBPort || 27017;
+const mongoDBDatabase = process.env.mongoDBDatabase;
+
+mongoose.connect(`mongodb://localhost:${mongoDBPort}/${mongoDBDatabase}`)
 
 async function startCrawling() {
     const browser = await puppeteer.launch({ headless: false })
